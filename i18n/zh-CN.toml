@@ -1,0 +1,22 @@
+# Translations for Simplified Chinese
+# 简体中文的翻译
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ===
+
+[about]
+other = "关于"
+
+[404.text]
+other = "你来到了一个没有知识的荒漠"
+
+[404.home]
+other = "去往首页"
+
+# === article ===
+
+[read.text]
+other = "阅读"
+
+[read.time]
+other = "分钟"

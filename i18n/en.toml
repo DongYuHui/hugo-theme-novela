@@ -1,0 +1,22 @@
+# Translations for English
+
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ===
+
+[about]
+other = "About"
+
+[404.text]
+other = "You reach a desert without knowledge."
+
+[404.home]
+other = "Go Home"
+
+# === article ===
+
+[read.text]
+other = "read"
+
+[read.time]
+other = "min"
