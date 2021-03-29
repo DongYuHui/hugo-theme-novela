@@ -7,11 +7,22 @@
 [about]
 other = "关于"
 
+[paginator.prev]
+other = "上一页"
+
+[paginator.next]
+other = "下一页"
+
 [404.text]
 other = "你来到了一个没有知识的荒漠"
 
 [404.home]
 other = "去往首页"
+
+# === header ===
+
+[header.copy]
+other = "copied"
 
 # === article ===
 
@@ -20,3 +31,6 @@ other = "阅读"
 
 [read.time]
 other = "分钟"
+
+[article.more]
+other = "更多文章来自"

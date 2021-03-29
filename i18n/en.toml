@@ -7,11 +7,22 @@
 [about]
 other = "About"
 
+[paginator.prev]
+other = "Prev"
+
+[paginator.next]
+other = "Next"
+
 [404.text]
 other = "You reach a desert without knowledge."
 
 [404.home]
 other = "Go Home"
+
+# === header ===
+
+[header.copy]
+other = "copied"
 
 # === article ===
 
@@ -20,3 +31,6 @@ other = "read"
 
 [read.time]
 other = "min"
+
+[article.more]
+other = "More articles from"

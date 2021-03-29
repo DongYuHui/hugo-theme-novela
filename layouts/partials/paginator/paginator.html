@@ -3,7 +3,7 @@
 <nav aria-label="Page navigation">
     <ul class="pagination">
         {{ if $pag.HasPrev }}
-        <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link page-prev">Prev</a></li>
+        <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link page-prev">{{ i18n "paginator.prev"}}</a></li>
         {{ end }}
         {{ range $pag.Pagers }}
         {{ if eq . $pag }}
@@ -14,7 +14,7 @@
         {{ end }}
 
         {{ if $pag.HasNext }}
-        <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link page-next">Next</a></li>
+        <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link page-next">{{ i18n "paginator.next" }}</a></li>
         {{ end }}
     </ul>
 </nav>
