@@ -465,12 +465,14 @@
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;
-    color: var(--primary);
+    opacity: 0.6;
+    color: var(--primary) !important;
 }
 
 .page-button:hover, .page-button:focus{
     opacity: 1;
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--primary) !important;
 }
 
 .page-number-button{
