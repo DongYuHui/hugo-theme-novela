@@ -2,13 +2,24 @@ baseURL: "https://example.com"
 languageCode: "en-us"
 title: "Hugo Novela"
 pygmentsstyle: 'monokai'
-paginate: 6
+theme: "hugo-theme-novela"
+paginate: 10
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn
+DefaultContentLanguage: zh-cn
+
 social:
-  twitter: "#"
   github: "#"
   instagram: "#"
-  linkedin: "#"
-  dribbble: "#"
   youtube: "#"
+  bilibili: "#"
+  weibo: "#"
+
 taxonomies:
   author: authors
+
+params:
+  footerTitle: "DongYuHui"
+  footerRecord: "Hello World"
+  showAbout: true
