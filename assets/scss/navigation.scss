@@ -22,7 +22,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-      padding-bottom: 100px;
+      padding-bottom: 70px;
     }
 }
 
@@ -35,7 +35,7 @@
 
 .footer-hr{
     position: relative;
-    margin: 140px auto 50px;
+    margin: 50px auto 50px;
     border-bottom: 1px solid var(--horizontalRule);
 }
 
@@ -45,7 +45,7 @@
         margin: 60px auto;
     }
     .footer-text{
-        margin-bottom: 80px;
+        margin-bottom: 30px;
     }
 }
 
@@ -55,7 +55,7 @@
         display: none;
     }
     .footer-text{
-        margin: 120px auto 100px;
+        margin: 50px auto 30px;
     }
 }
 
