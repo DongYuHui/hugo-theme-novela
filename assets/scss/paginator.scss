@@ -46,3 +46,25 @@
         }
     }
 }
+
+/*TABLET*/
+@media screen and (max-width: 735px) {
+    .pagination {
+        margin: 30px auto 0px auto;
+        justify-content: center;
+    }
+    .page-link {
+        text-align: center;
+    }
+}
+
+/*PHABLET*/
+@media screen and (max-width: 540px) {
+    .pagination {
+        margin: 70px auto 0px auto;
+        justify-content: center;
+    }
+    .page-link {
+        text-align: center;
+    }
+}
