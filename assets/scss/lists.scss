@@ -18,6 +18,7 @@ ul{
 @media screen and (max-width: 1070px){
     ul{
         max-width: 507px;
+        padding-left: 0px;
     }
 }
 
@@ -38,7 +39,7 @@ ul{
 
 li{
     position: relative;
-    padding-bottom: 15px;
+    padding-left: 30px;
 }
 
 /*TABLET*/
@@ -70,7 +71,7 @@ ul li::before{
     color: var(--articleText);
     content: "";
     position: absolute;
-    left: -30px;
+    left: 0;
     top: 8px;
     height: 8px;
     width: 8px;
@@ -103,6 +104,7 @@ ol{
 @media screen and (max-width: 1070px){
     ol{
         max-width: 507px;
+        padding-left: 0px;
     }
 }
 
@@ -123,7 +125,6 @@ ol{
 
 ol li{
     position: relative;
-    padding-bottom: 15px;
 }
 
 /*TABLET*/
