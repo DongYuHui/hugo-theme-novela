@@ -10,10 +10,13 @@
         {{ .Content }}
     </article>
 
+    {{ partial "article/lightbox.html" . }}
 
     {{ partial "article/next.html" . }}
+
 </section>
 
 {{ $script := resources.Get "js/progressBar.js" }}
- <script src="{{ $script.RelPermalink }}"></script>
+<script src="{{ $script.RelPermalink }}"></script>
+
 {{ end }}
