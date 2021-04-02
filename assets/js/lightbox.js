@@ -22,7 +22,6 @@ var initLightBox = function(selector) {
     	var items = parseLightboxItems();
     	var index = -1;
     	for (var i = 0; i < items.length; i++) {
-    		console.log(items[i].el);
     		if (target === items[i].el) {
     			index = i;
     			break;
