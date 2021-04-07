@@ -64,7 +64,7 @@ ul li > *{
     display: inline;
 }
 
-ul li::before{
+ul>li::before{
     width: 3rem;
     display: inline-block;
     position: absolute;
@@ -131,7 +131,7 @@ ol li{
 @media screen and (max-width: 735px){
     ol li{
         padding-left: 30px;
-        padding: 0;
+        // padding: 0;
     }
     ol li p{
         padding-left: 30px;
@@ -149,7 +149,7 @@ ol li > *{
     display: inline;
 }
 
-ol li::before {
+ol>li::before {
     width: 3rem;
     display: inline-block;
     position: absolute;
@@ -158,7 +158,7 @@ ol li::before {
     content: counter(list) ".";
     font-weight: 600;
     position: absolute;
-    left: -3rem;
+    left: -0.3rem;
     top: -0.3rem;
     font-size: 2rem;
 }
