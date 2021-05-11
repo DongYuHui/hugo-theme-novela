@@ -32,8 +32,8 @@ var initLightBox = function(selector) {
     	}
 		var options = {
 			index: index,
-			getThumbBoundsFn: function() {
-				var thumbnail = items[index];
+			getThumbBoundsFn: function(position) {
+				var thumbnail = items[position];
 				var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
 				var rect = thumbnail.el.getBoundingClientRect();
 				return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
